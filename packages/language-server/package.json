@@ -1,7 +1,7 @@
 {
   "name": "@likec4/language-server",
   "description": "LikeC4 Language Server",
-  "version": "1.48.0",
+  "version": "1.48.1",
   "license": "MIT",
   "bugs": "https://github.com/likec4/likec4/issues",
   "homepage": "https://likec4.dev",
@@ -34,7 +34,6 @@
       "sources": "./src/index.ts",
       "browser": {
         "sources": "./src/browser/index.ts",
-
         "default": {
           "types": "./dist/browser/index.d.mts",
           "import": "./dist/browser/index.mjs",

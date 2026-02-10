@@ -1,5 +1,36 @@
 # @likec4/diagram
 
+## 1.48.1
+
+### Patch Changes
+
+- [`ceeb0c7`](https://github.com/likec4/likec4/commit/ceeb0c711f99bbd3de63a0ed5c43574c7bde7120) Thanks [@davydkov](https://github.com/davydkov)! - Clean up drifts display
+
+- [`f42c046`](https://github.com/likec4/likec4/commit/f42c046cd4bf1a3f4037cb2020268e729f018300) Thanks [@davydkov](https://github.com/davydkov)! - First iteration of element notes feature to diagrams
+
+  - Add notes property to NodeModel for element annotations
+  - Add enableNotes prop to diagram components for controlling notes display
+  - Implement visual notes indicator with paper-like styling
+  - Support notes in all node types (elements, deployment, sequence actors)
+  - Add hover effects and animations for notes indicators
+
+- [`e10ea04`](https://github.com/likec4/likec4/commit/e10ea04bd2119b83cbd4c625640e63cd6e3f2e96) Thanks [@davydkov](https://github.com/davydkov)! - Fix compound nodes not respecting border style from defaults
+  Closes [#2501](https://github.com/like-c4/like-c4/issues/2501)
+
+- [`e10ea04`](https://github.com/likec4/likec4/commit/e10ea04bd2119b83cbd4c625640e63cd6e3f2e96) Thanks [@davydkov](https://github.com/davydkov)! - Set fixed icon sizes for consistent rendering
+
+- [`fa87d71`](https://github.com/likec4/likec4/commit/fa87d7138b5c17e5fec037eb408fb9abf4cb6799) Thanks [@davydkov](https://github.com/davydkov)! - Improve compare panel:
+
+  - Add reset manual layout button with tooltip guidance
+  - Improve processing state handling with better animation timing
+  - Add tooltips for better user guidance on layout restrictions
+
+- [`f42c046`](https://github.com/likec4/likec4/commit/f42c046cd4bf1a3f4037cb2020268e729f018300) Thanks [@davydkov](https://github.com/davydkov)! - Add review drifts feature to the compare panel, highlight drifts in the diagram and add drifts summary panel.
+
+- Updated dependencies [[`f42c046`](https://github.com/likec4/likec4/commit/f42c046cd4bf1a3f4037cb2020268e729f018300), [`e10ea04`](https://github.com/likec4/likec4/commit/e10ea04bd2119b83cbd4c625640e63cd6e3f2e96), [`e10ea04`](https://github.com/likec4/likec4/commit/e10ea04bd2119b83cbd4c625640e63cd6e3f2e96), [`731a6cb`](https://github.com/likec4/likec4/commit/731a6cb278ef6bc06280bf1ba3b2d8f79c7d7fe6)]:
+  - @likec4/core@1.48.1
+  - @likec4/styles@1.48.1
+
 ## 1.48.0
 
 ### Minor Changes

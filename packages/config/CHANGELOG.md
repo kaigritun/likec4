@@ -1,5 +1,29 @@
 # @likec4/config
 
+## 1.48.1
+
+### Patch Changes
+
+- [`3f28e65`](https://github.com/likec4/likec4/commit/3f28e65162d895a5afd3b61e3dcf1c0c9d67c661) Thanks [@davydkov](https://github.com/davydkov)! - Allow JSON configs to extend other configs and merge styles from them. Closes [#2573](https://github.com/likec4/likec4/issues/2573)
+
+  ```json
+  {
+    "name": "project-name",
+    "extends": ["../shared/base-config.json", "../shared/theme-config.json"],
+    "styles": {
+      "defaults": {
+        "relationship": {
+          "arrow": "vee"
+        }
+      }
+    }
+  }
+  ```
+
+- Updated dependencies [[`f42c046`](https://github.com/likec4/likec4/commit/f42c046cd4bf1a3f4037cb2020268e729f018300), [`e10ea04`](https://github.com/likec4/likec4/commit/e10ea04bd2119b83cbd4c625640e63cd6e3f2e96), [`731a6cb`](https://github.com/likec4/likec4/commit/731a6cb278ef6bc06280bf1ba3b2d8f79c7d7fe6)]:
+  - @likec4/core@1.48.1
+  - @likec4/log@1.48.1
+
 ## 1.48.0
 
 ### Patch Changes
